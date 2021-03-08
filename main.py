@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 from util import cal_loss, IOStream
 import sklearn.metrics as metrics
 
-import time 
+import time
 
 def _init_():
     if not os.path.exists('checkpoints'):
